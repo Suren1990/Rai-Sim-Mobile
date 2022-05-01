@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "SF Pro Display";
+  background-color: #FAFAFA;
+}
+
+.content_wrap {
+  margin: 0 auto;
+  padding-left: 27px;
+}
+
+.main_wrap {
+  flex: 1;
+}
+
+/*# sourceMappingURL=styles.css.map */

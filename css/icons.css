@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icons/icomoon.eot?vo5bpl');
+  src:  url('../icons/icomoon.eot?vo5bpl#iefix') format('embedded-opentype'),
+    url('../icons/icomoon.ttf?vo5bpl') format('truetype'),
+    url('../icons/icomoon.woff?vo5bpl') format('woff'),
+    url('../icons/icomoon.svg?vo5bpl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../icons/icomoon.eot?j43w4r');
+  src:  url('../icons/icomoon.eot?j43w4r#iefix') format('embedded-opentype'),
+    url('../icons/icomoon.ttf?j43w4r') format('truetype'),
+    url('../icons/icomoon.woff?j43w4r') format('woff'),
+    url('../icons/icomoon.svg?j43w4r#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ringing:before {
+  content: "\e911";
+}
+.icon-heart-full:before {
+  content: "\e910";
+}
+.icon-plus:before {
+  content: "\e90f";
+}
+.icon-user:before {
+  content: "\e900";
+}
+.icon-tik-tok:before {
+  content: "\e901";
+}
+.icon-telegram:before {
+  content: "\e902";
+}
+.icon-search:before {
+  content: "\e903";
+}
+.icon-pinterest:before {
+  content: "\e904";
+}
+.icon-notification:before {
+  content: "\e905";
+}
+.icon-menu-serach:before {
+  content: "\e906";
+}
+.icon-location:before {
+  content: "\e907";
+}
+.icon-instagram:before {
+  content: "\e908";
+}
+.icon-home:before {
+  content: "\e909";
+}
+.icon-heart:before {
+  content: "\e90a";
+}
+.icon-facebook:before {
+  content: "\e90b";
+}
+.icon-dot:before {
+  content: "\e90c";
+}
+.icon-chat:before {
+  content: "\e90d";
+}
+.icon-cart:before {
+  content: "\e90e";
+}

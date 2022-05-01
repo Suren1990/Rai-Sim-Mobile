@@ -1,0 +1,56 @@
+@import './variables.scss';
+
+.nav {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    // padding-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);  
+    z-index: 19;
+}
+
+.nav_item {
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    max-width: 75px;   
+    padding: 5px 0;   
+    
+    .nav_icon {
+        margin-bottom: 4px;
+        font-size: 24px;
+    }
+
+    .nav_txt {
+        font-size: 10px;
+        line-height: 12px;
+        font-weight: 500;
+    }
+
+    .profile_img {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &.active {
+
+        .nav_icon,
+        .nav_txt {
+            color: $mainColor;
+        }
+    }
+}

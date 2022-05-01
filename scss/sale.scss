@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+.sale_wrap {
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.sale {
+    display: flex;
+    flex: 1;
+    column-gap: 10px;
+    padding: 0 27px 10px 0;
+    overflow-x: auto;
+}
+
+.sale_sub {
+    display: flex;
+    flex: 0 0 320px;
+    height: 160px;    
+    padding: 18px 16px;
+    background: url("../images/sale_img.jpg") no-repeat 50% 50% / cover;
+    border-radius: 14px;
+}
+
+.sale_sub_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .sale_sub_type,
+    .sale_sub_sale {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+
+    .sale_sub_discount {
+        font-size: 48px;
+        line-height: 57px;
+        color: $mainColor;
+    }
+}
+
